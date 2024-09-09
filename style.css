@@ -1,25 +1,56 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    background-color: hsl(0, 0%, 90%);
-
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: hsl(0, 0%, 90%);
+  padding: 1rem;
 }
-
-
 
 img {
-    width: 75%;
-    border-radius: 25px;
+  width: 75%;
+  border-radius: 25px;
+  text-align: center;
 }
 
-#headerH1 {
-    color: chocolate;
+.forestImgClass {
+  animation: spin 2s;
 }
 
-#headerH2 {
-    color: blue;
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  color: chocolate;
+}
+
+h2 {
+  color: blue;
 }
 
 #headerH3 {
-    color: brown;
+  color: brown;
+}
+
+button {
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 0.5rem;
+  background-color: aliceblue;
+  font-weight: bold;
+}
+
+button:hover {
+  scale: 1.1;
+  transition: 0.1s;
+}
+
+button:active {
+  scale: 0.9;
+  transition: 0.1s;
 }
