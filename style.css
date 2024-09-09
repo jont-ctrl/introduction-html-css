@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: hsl(0, 0%, 90%);
+
+}
+
+
+
+img {
+    width: 75%;
+    border-radius: 25px;
+}
+
+#headerH1 {
+    color: chocolate;
+}
+
+#headerH2 {
+    color: blue;
+}
+
+#headerH3 {
+    color: brown;
+}
